@@ -1,0 +1,34 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authentication Sign up, Login and Logout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudisopian/Authentication.git"
+  },
+  "author": "RUDI SOPIAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudisopian/Authentication/issues"
+  },
+  "homepage": "https://github.com/rudisopian/Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "validator": "^13.6.0"
+  }
+}
